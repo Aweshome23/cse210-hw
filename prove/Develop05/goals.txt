@@ -1,0 +1,4 @@
+195
+SimpleGoal:Go on a run,Run tomorrow morning,50,True
+EternalGoal:Temple,Attend the temple once a month,25
+ChecklistGoal:Bread,Make bread for my wife,30,250,5,4

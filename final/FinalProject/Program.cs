@@ -4,6 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello FinalProject World!");
+        // Initialize our main game engine
+        GameEngine engine = new GameEngine();
+        
+        // Start the game loop
+        engine.Run();
     }
 }

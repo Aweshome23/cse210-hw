@@ -1,0 +1,13 @@
+using System;
+
+public class Equipment
+{
+    private string _itemName;
+    private int _bonusDamage;
+
+    public Equipment(string itemName, int bonusDamage)
+    {
+        _itemName = itemName;
+        _bonusDamage = bonusDamage;
+    }
+}

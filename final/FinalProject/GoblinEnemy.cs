@@ -1,8 +1,8 @@
 using System;
 
-public class Goblin : Enemy
+public class GoblinEnemy : Enemy
 {
-    public Goblin() : base("Goblin", 30, 15)
+    public GoblinEnemy() : base("Goblin", 30, 15, 5)
     {
         
     }

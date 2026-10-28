@@ -1,14 +1,14 @@
 using System;
 
-public class Boss : Enemy
+public class BossEnemy : Enemy
 {
-    public Boss() : base("Balrog", 100, 100)
+    public BossEnemy() : base("Balrog", 100, 100, 25)
     {
         
     }
 
     public override int CalculateAttackDamage()
     {
-        return 20; // Example boss damage
+        return 8;
     }
 }

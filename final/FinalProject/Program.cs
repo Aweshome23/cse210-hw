@@ -4,10 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Initialize our main game engine
-        GameEngine engine = new GameEngine();
-        
-        // Start the game loop
-        engine.Run();
+        Player hero = new Player("Thorin", 100);
+
+        GameEngine engine = new GameEngine(hero);
+
+        engine.RunGame();
     }
 }

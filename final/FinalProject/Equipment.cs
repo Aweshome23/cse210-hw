@@ -10,4 +10,14 @@ public class Equipment
         _itemName = itemName;
         _bonusDamage = bonusDamage;
     }
+
+    public string GetItemName()
+    {
+        return _itemName;
+    }
+
+    public int GetBonusDamage()
+    {
+        return _bonusDamage;
+    }
 }
